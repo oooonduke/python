@@ -1,5 +1,4 @@
 #センター試験数学ⅠＡ　平成１３年度
-#http://www.dennougumi.co.jp/support/exam/h13/13_1.html
 #Basic言語
 '''
 010 rem 元プログラム
