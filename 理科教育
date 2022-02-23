@@ -1,0 +1,18 @@
+import signal
+from time import sleep
+
+signal.setitimer(signal.ITIMER_REAL, 0.1, 0.1)
+
+#標準入出力なら
+#target_time = float(input())
+target_time = 3.1
+ 
+def up_timer(secs):
+    while(secs > 0):
+        print(format(secs, '.1f'))
+        sleep(0.1)
+        secs = secs - 0.1
+    print("時間です！")
+ 
+ 
+up_timer(target_time)
